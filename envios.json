@@ -1,0 +1,41 @@
+{
+    "envio_id": "67890",
+    "contenido_paquete": "Documentos",
+    "peso_libras": 2,
+    "valor_producto": 500000,
+
+    "origen": {
+      "ciudad": "Popayan",
+      "direccion": "Calle 69 FN 8A 56"
+    },
+    "destino": {
+      "ciudad": "Medellín",
+      "direccion": "Carrera 78 #12-34"
+    },
+    "remitente": {
+      "id":"333"
+    },
+    "destinatario": {
+      "doc_id": "12345678",
+      "nombres": "María",
+      "apellidos": "González",
+      "direccion": "Carrera 12 #34-56",
+      "telefono": "3108765432"
+    },
+    "medio_transporte":{
+        "tipo_trasporte": "Terrestre"
+    },
+
+    "cobros": {
+        "envio_id": "67890",
+        "cobrado_en": "2024-10-07",
+        "total_a_cobrar": 700000
+      },
+    "novedades": [
+      {
+        "fecha": "2024-10-05",
+        "descripcion": "Retraso por tráfico"
+      }
+    ]
+  }
+  
